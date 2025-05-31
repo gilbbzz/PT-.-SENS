@@ -1,82 +1,89 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PT SENS - Company Profile</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT SENS - Solusi Energi Nasional Sejahtera</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-    header, footer { background: #004466; color: white; padding: 20px; text-align: center; }
-    nav { background: #003355; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    section { padding: 20px; background: white; margin: 10px; border-radius: 10px; }
-    h2 { color: #004466; }
+    body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+    h1, h2 { color: #003366; }
+    section { margin-bottom: 30px; }
+    img { max-width: 100%; height: auto; display: block; margin-top: 10px; }
+    .logo { max-width: 150px; height: auto; margin-bottom: 20px; }
   </style>
 </head>
 <body>
   <header>
+    <img src="PT SENS.jpg" alt="PT SENS Logo" class="logo">
     <h1>PT SENS</h1>
-    <p>Solusi Energi Nasional Sejahtera</p>
+    <p><strong>Solusi Energi Nasional Sejahtera</strong><br>West Jakarta, 2025</p>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#vision">Vision & Mission</a>
-    <a href="#values">Main Values</a>
-    <a href="#products">Products</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
+  <section>
     <h2>About Company</h2>
-    <p>PT SENS is engaged in the distribution of industrial engine lubricants that meet and exceed international standards. Our company serves manufacturing, transportation, heavy equipment, shipping, and mining industries.</p>
+    <p>PT SENS is a company engaged in the distribution of industrial engine lubricants that meet and exceed international quality standards. Committed to providing solutions for industrial engine performance, maintaining engine age and durability, achieving optimum performance at an efficient cost for the Company.</p>
   </section>
 
-  <section id="vision">
+  <section>
     <h2>Vision & Mission</h2>
     <p><strong>Vision:</strong> To be the most effective and efficient solution provider for global industry needs.</p>
     <p><strong>Mission:</strong></p>
     <ul>
       <li>Providing a variety of products to meet all industrial needs</li>
-      <li>Meeting international certification standards</li>
-      <li>Prioritizing service and customer satisfaction</li>
-      <li>Fast and accurate need fulfillment</li>
-      <li>Enhancing client operational performance</li>
-      <li>Cost efficiency for clients</li>
+      <li>Meet international certification standards and maintain product quality</li>
+      <li>Priority of service and customer satisfaction</li>
+      <li>Fast and precise fulfillment of needs</li>
+      <li>Maintaining the effectiveness of the client company's operational performance</li>
+      <li>Cost efficiency for client Companies</li>
     </ul>
   </section>
 
-  <section id="values">
+  <section>
     <h2>Main Values</h2>
     <ul>
-      <li><strong>Focus on Consumers:</strong> Long-term, effective communication and tailored solutions</li>
-      <li><strong>Quality Standards:</strong> Rigorously tested products meeting international standards</li>
-      <li><strong>Innovation:</strong> Constantly evolving with industry needs</li>
-      <li><strong>Integrity:</strong> Honesty, transparency, and reliability in all dealings</li>
+      <li><strong>Focus on consumers:</strong> We maintain good and long-term relationships with consumers to provide the most effective and efficient solutions.</li>
+      <li><strong>Quality standards:</strong> Every product has gone through strict testing to meet international standards.</li>
+      <li><strong>Innovation:</strong> We innovate and adapt to industry needs.</li>
+      <li><strong>Integrity:</strong> We uphold honesty, responsibility, and transparency.</li>
     </ul>
   </section>
 
-  <section id="products">
+  <section>
     <h2>Our Products</h2>
     <ul>
-      <li><strong>Heavy Machinery:</strong> Lubricants for excavators, loaders, cranes, etc.</li>
-      <li><strong>Manufacturing:</strong> Supports production machinery with minimal downtime</li>
-      <li><strong>Shipping:</strong> Marine-grade lubricants for extreme environments</li>
-      <li><strong>Iron Processing:</strong> Lubricants for cutting, pressing, forming metals</li>
-      <li><strong>Mining:</strong> Specialized lubricants for extreme conditions</li>
+      <li><strong>Heavy Machinery:</strong> Lubricants for construction and mining equipment.</li>
+      <li><strong>Manufacturing:</strong> Lubricants for production machines to reduce downtime.</li>
+      <li><strong>Shipping and Maritime:</strong> High-protection lubricants against corrosion and moisture.</li>
+      <li><strong>Iron Processing:</strong> Lubricants for metal cutting, pressing, and forming.</li>
+      <li><strong>Mining:</strong> Specialized lubricants for extreme conditions.</li>
     </ul>
+    <div>
+      <img src="WhatsApp Image 2025-05-31 at 19.45.47_33cad7bc.jpg" alt="Bestron Barrel Yellow & Purple">
+      <img src="WhatsApp Image 2025-05-31 at 19.45.47_aa2b3230.jpg" alt="Sparkling Engine Purple Barrel">
+      <img src="WhatsApp Image 2025-05-31 at 19.45.47_c7448de2.jpg" alt="Hydraulic Sample Bottle">
+      <img src="WhatsApp Image 2025-05-31 at 19.45.47_6f6925a9.jpg" alt="Monograde Diesel Purple Barrel">
+      <img src="WhatsApp Image 2025-05-31 at 19.45.46_2138e610.jpg" alt="Red Bestron Barrel">
+      <img src="WhatsApp Image 2025-05-31 at 19.45.46_6821c4d4.jpg" alt="Purple Bestron Barrel">
+    </div>
   </section>
 
-  <section id="contact">
+  <section>
+    <h2>Import Image</h2>
+    <input type="file" accept="image/*" onchange="previewImage(event)">
+    <img id="output" alt="Uploaded Image Preview">
+    <script>
+      function previewImage(event) {
+        const output = document.getElementById('output');
+        output.src = URL.createObjectURL(event.target.files[0]);
+      }
+    </script>
+  </section>
+
+  <section>
     <h2>Get In Touch</h2>
-    <p>📍 Taman Surya 5 Blok LL1 No. 19, Pegadungan, Kalideres, Jakarta Barat</p>
-    <p>📞 +62 812-1212-9803</p>
-    <p>📧 ptsolusienerginasional.s@gmail.com</p>
+    <p>Taman Surya 5 Blok LL1 No. 19, Pegadungan, Kalideres, Jakarta Barat<br>
+    Phone: +62 812-1212-9803<br>
+    Email: Ptsolusienerginasional.s@gmail.com</p>
   </section>
-
-  <footer>
-    <p>© 2025 PT SENS. All Rights Reserved.</p>
-  </footer>
 </body>
 </html>
